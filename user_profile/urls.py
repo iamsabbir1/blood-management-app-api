@@ -14,6 +14,7 @@ from user_profile import views
 
 app_name = "user_profile"
 urlpatterns = [
-    # path("profile/", views.ProfileViewSet.as_view(), name="profile")
+    path("profile/", views.ProfileViewSet.as_view(), name="profile"),
+    path("profile/create/", views.ProfileCreateView.as_view(), name="profile-create"),
     # path("profile/", include(router.urls)),
 ]

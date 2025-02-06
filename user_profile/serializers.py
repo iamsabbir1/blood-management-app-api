@@ -16,4 +16,9 @@ class ProfileSerializer(serializers.ModelSerializer):
             "contact",
             "blood_group",
             "is_donor",
+            "is_contact_hidden",
+            "is_online",
+            "was_recently_active",
+            "last_active",
+            "is_typing",
         ]
